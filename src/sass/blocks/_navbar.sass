@@ -1,4 +1,5 @@
 .navbar
+	display: flex
 	&-block
 		display: flex
 		justify-content: space-between
@@ -7,6 +8,7 @@
 	&-menu
 		display: flex
 		justify-content: space-around	
+		flex-wrap: wrap
 	&__menu
 		padding-left: 30px
 		text-transform: uppercase
@@ -14,3 +16,17 @@
 		color: $color-text
 		&-shadow
 			text-shadow: 2px 1px 3px grey
+@media ( max-width: 786px )
+	.navbar
+		&-block
+		&-menu
+		&__menu
+			margin-top: 10px		
+
+@media ( max-width: 500px )
+	.navbar
+		&-block
+			flex-direction: column
+			align-items: center
+		&-menu
+			margin-top: 20px	
