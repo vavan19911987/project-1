@@ -494,6 +494,9 @@ a {
 }
 
 @media (max-width: 786px) {
+  .navbar-image {
+    width: 80%;
+  }
   .navbar-menu {
     padding-left: 10px;
   }
