@@ -506,6 +506,9 @@ a {
 }
 
 @media (max-width: 500px) {
+  .navbar-image {
+    width: 100%;
+  }
   .navbar-block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
