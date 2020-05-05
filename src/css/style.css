@@ -487,8 +487,10 @@ a {
   text-align: center;
 }
 
-.navbar__menu-shadow {
-  text-shadow: 2px 1px 3px grey;
+@media (min-width: 1200px) {
+  .navbar__menu-shadow {
+    text-shadow: 2px 1px 3px grey;
+  }
 }
 
 @media (max-width: 786px) {
