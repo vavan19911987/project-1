@@ -464,6 +464,9 @@ a {
           justify-content: space-between;
   padding-top: 25px;
   padding-bottom: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar-menu {
@@ -481,6 +484,7 @@ a {
   text-transform: uppercase;
   font-size: 16px;
   color: #2d394c;
+  text-align: center;
 }
 
 .navbar__menu-shadow {
@@ -488,6 +492,9 @@ a {
 }
 
 @media (max-width: 786px) {
+  .navbar-menu {
+    padding-left: 10px;
+  }
   .navbar__menu {
     margin-top: 10px;
   }
@@ -505,5 +512,8 @@ a {
   }
   .navbar-menu {
     margin-top: 20px;
+  }
+  .navbar__menu {
+    padding: 0;
   }
 }
