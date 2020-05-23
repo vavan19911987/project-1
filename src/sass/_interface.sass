@@ -1,10 +1,36 @@
 *
 	box-sizing: border-box
+body
+	font-family: Ubuntu
+	margin: 0
+	padding: 0
+	
 .container
 	width: 1300px
 	margin: auto
 a 
 	text-decoration: none
+img
+	max-width: 100%	
+.input
+	border: 1px solid rgba(255, 255, 255, 0.15)
+	padding: 21px 21px
+	font-size: 15px
+	border-radius: 8px
+	&:focus
+		outline: none
+.button 
+	border-radius: 8px
+	background-color: $color-button
+	border: none
+	padding: 21px 25px
+	&:hover
+		cursor: pointer
+	&:focus
+		outline: none
+	&:active
+		background-color: lighten($color-button,15% )		
+	
 @media ( max-width: 1200px )
 	.container
 		width: 960px
