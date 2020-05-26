@@ -1,0 +1,47 @@
+// ===================================================ШРИФТЫ====================================================================================================================
+@mixin light-ub {
+	font-family: 'Ubuntu', sans-serif;    
+	font-weight: 300;
+}
+@mixin reg-ub {
+	font-family: 'Ubuntu', sans-serif;    
+	font-weight: 400;
+}
+@mixin med-ub { 
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+}
+@mixin bold-ub {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+@mixin light-sans {
+	font-family: 'Open Sans', sans-serif;    
+	font-weight: 300;
+}
+
+@mixin reg-sans {
+	font-family: 'Open Sans', sans-serif;    
+	font-weight: 400;
+}
+@mixin reg-nun {
+	font-family: 'Nunito', sans-serif;    
+	font-weight: 400;
+}
+@mixin reg-font {
+	font-family: 'fontawesome', sans-serif;    
+	font-weight: 400;
+}
+@mixin reg-myr {
+	font-family: 'MyriadPro', sans-serif;    
+	font-weight: 400;
+}
+
+
+// ========ПРИМЕР=======
+// @mixin reg-(сокращение от название) {
+// 	font-family: 'Название шрифта', sans-serif;
+// 	font-weight: ставим подходящие значение;
+//		font-style: ставим подходящие значение;
+// }
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+@font-face {
+	font-family: 'fontawesome';
+	font-display: swap;
+	src: url("../fonts/fontawesome-webfont.eot");
+	src: local("O"), url("../fonts/fontawesome-webfont.woff") format("woff"), 
+			url("../fonts/fontawesome-webfont.ttf") format("truetype"), 
+			url("../fonts/fontawesome-webfont.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyriadPro';
+	font-display: swap;
+	src: url("../fonts/MyriadPro-Regular.eot");
+	src: local("O"), url("../fonts/MyriadPro-Regular.woff") format("woff"), 
+			url("../fonts/MyriadPro-Regular.ttf") format("truetype"), 
+			url("../fonts/MyriadPro-Regular.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+
