@@ -289,6 +289,23 @@ img {
   font-weight: 300;
 }
 
+.logo {
+  background: #f8f8f8;
+}
+
+.logo__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 59px;
+  padding-bottom: 56px;
+}
+
 .info {
   position: relative;
 }
