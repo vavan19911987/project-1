@@ -508,7 +508,7 @@ img {
           align-items: center;
   position: absolute;
   top: 85%;
-  margin-left: 50%;
+  margin-left: 46%;
 }
 
 .slick-dots li {
@@ -528,4 +528,68 @@ img {
   height: 20px;
   border-radius: 50%;
   background-color: #fff;
+}
+
+.time__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title {
+  color: #2d394c;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 147px;
+  padding-bottom: 48px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #2d394c;
+  margin-bottom: 63px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.form {
+  padding-bottom: 104px;
+}
+
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  padding: 21px;
+  padding-right: 243px;
+  padding-left: 60px;
+  font-size: 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  background: url("../img/time/Shape.png") 0 0 no-repeat;
+  background-position: 11px 50%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.button {
+  background: #77c344;
+  margin-left: 35px;
+  padding: 27px 57px;
+  border-radius: 10px;
+  color: #f7f6f2;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
 }
